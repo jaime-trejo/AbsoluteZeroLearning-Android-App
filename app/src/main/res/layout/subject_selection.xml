@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/promptDisplay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="25dp"
+		android:gravity="center"
+		android:includeFontPadding="false"
+		android:text="@string/welcome_prompt"
+		android:textSize="12sp" />
+
+	<ImageView
+		android:id="@+id/welcomeImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds= "true"
+		android:maxWidth = "300dp"
+		android:maxHeight = "300dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		/>
+
+	<ImageView
+		android:id="@+id/mathSubjectPromptButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="100dp"
+		android:text="@string/math_prompt" />
+
+	<ImageView
+		android:id="@+id/colorSubjectPromptButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/mathSubjectPromptButton"
+		android:layout_marginTop="175dp"
+		android:layout_marginRight="35dp"
+		android:text="@string/color_prompt"
+		/>
+
+	<ImageView
+		android:id="@+id/planetSubjectPromptButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf= "@+id/mathSubjectPromptButton"
+		android:layout_marginTop="175dp"
+		android:layout_marginLeft="35dp"
+		android:text="@string/planet_prompt" />
+
+</RelativeLayout>

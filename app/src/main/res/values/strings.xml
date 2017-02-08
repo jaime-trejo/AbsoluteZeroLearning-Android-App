@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Absolute Zero Learning</string>
+    <string name="exit_prompt"> Exit Subject</string>
+    <string name="continue_prompt"> Continue</string>
+    <string name="welcome_math">Welcome to Math!</string>
+    <string name="color_prompt"> Colors </string>
+    <string name="math_prompt"> Math</string>
+    <string name="planet_prompt"> Planets</string>
+    <string name="prob1_prompt"> Problem1 </string>
+    <string name="prob2_prompt"> Problem2</string>
+    <string name="prob3_prompt"> Problem3</string>
+    <string name="welcome_prompt"> Welcome!\n What would you like to play?</string>
+    <string name="title_activity_math_subject">MathSubject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_apple_problem">apple_problem</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drag_apple">dragApple</string>
+    <string name="title_activity_probem2">probem2</string>
+    <string name="title_activity_apple_problem2">apple_problem2</string>
+    <string name="title_activity_planet_results">PlanetResults</string>
+    <string name="title_activity_planets">Planets</string>
+    <string name = "planet_question_prompt">What planet is the following? </string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="title_activity_calculator">Calculator</string>
+
+</resources>

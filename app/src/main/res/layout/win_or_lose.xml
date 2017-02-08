@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/colorResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+         />
+    
+    <ImageView 
+        android:id="@+id/resultImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds= "true"
+        android:maxWidth = "200dp"
+        android:maxHeight = "200dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp" 
+        android:layout_marginBottom="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"/>
+   <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:layout_marginBottom="46dp"
+		android:layout_toLeftOf="@+id/fakeView"
+        android:text="@string/continue_prompt" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:layout_marginBottom="46dp"
+		android:layout_toRightOf="@+id/fakeView"
+        android:text="@string/exit_prompt" />
+ 
+</RelativeLayout>

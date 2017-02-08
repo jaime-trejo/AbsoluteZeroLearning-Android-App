@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.absolutezerowit.finalproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dur4"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SubjectMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Colors"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ColorResults"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MathSubject"
+            android:label="@string/title_activity_math_subject"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".apple_problem"
+            android:label="@string/title_activity_apple_problem"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dragApple"
+            android:label="@string/title_activity_drag_apple"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AppleResults"
+            android:label="AppleResults"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".math_problem2"
+            android:label="@string/title_activity_probem2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".apple_problem2"
+            android:label="@string/title_activity_apple_problem2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AppleResults2"
+            android:label="AppleResults2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PlanetResults"
+            android:label="@string/title_activity_planet_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Planets"
+            android:label="@string/title_activity_planets"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".StartScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+    </application>
+
+</manifest>

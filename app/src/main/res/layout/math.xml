@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+     >
+
+	 <Button
+		 android:id="@+id/exitButton"
+	     style="?android:attr/buttonStyleSmall"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+	     android:text="@string/exit_prompt" />
+
+	<TextView
+		android:id="@+id/promptDisplay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="25dp"
+		android:gravity="center"
+		android:includeFontPadding="false"
+		android:text="@string/welcome_math"
+		android:textSize="12sp" />
+
+	<ImageView
+		android:id="@+id/image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds= "true"
+		android:maxWidth = "300dp"
+		android:maxHeight = "300dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		/>
+
+	<ImageView
+		android:id="@+id/problem2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="100dp"
+		android:text="@string/prob2_prompt" />
+
+	<ImageView
+		android:id="@+id/problem1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/problem2"
+		android:layout_marginTop="175dp"
+		android:layout_marginRight="35dp"
+		android:text="@string/prob1_prompt"
+		/>
+
+	<ImageView
+		android:id="@+id/problem3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf= "@+id/problem2"
+		android:layout_marginTop="175dp"
+		android:layout_marginLeft="35dp"
+		android:text="@string/prob3_prompt" />
+
+</RelativeLayout>
